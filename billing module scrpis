@@ -1,0 +1,46 @@
+<!-- These scripts are to be included in the purchase plaqn buttons separetly -->
+
+<!-- include in <buttton> tag for purchase under basic subscription-->
+<!-- Code for BASIC SUBSCRIPTION using stripe {refer to Drew for clarity} -->
+                        <!-- (Future reference)==Change stripe keys to your Stripe publishable key -->
+                        <!-- Script sends SMS text to specified number -->
+                        <!-- Done by Kutlwano P. Maruatona(Drew) -->
+                        <script
+                                src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                                data-key="publishable key"
+                                data-name="Capsuite Billing"
+                                data-description="Basic Subscription (*price* per month)"
+                                data-panel-label="Subscribe"
+                                data-label="Subscribe"
+                                data-amount=" ">
+</script>
+
+<!-- include in <buttton> tag for purchase under advanced subscription-->
+<!-- Code for ADVANCED SUBSCRIPTION using stripe {refer to Drew for clarity} -->
+                        <!-- (Future reference)==Change stripe keys to your Stripe publishable key -->
+                        <!-- Script sends SMS text to specified number -->
+                        <!-- Done by Kutlwano P. Maruatona(Drew) -->
+                        <script
+                                src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                                data-key="publishable key"
+                                data-name="Capsuite Billing"
+                                data-description="Advanced Subscription (*price* per month)"
+                                data-panel-label="Subscribe"
+                                data-label="Subscribe"
+                                data-amount=" ">
+</script>
+
+<!-- include in <buttton> tag for purchase under premium subscription-->
+<!-- Code for PREMIUM SUBSCRIPTION using stripe {refer to Drew for clarity} -->
+                        <!-- (Future reference)==Change stripe keys to your Stripe publishable key -->
+                        <!-- Script sends SMS text to specified number -->
+                        <!-- Done by Kutlwano P. Maruatona(Drew) -->
+                        <script
+                                src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                                data-key="publishable key"
+                                data-name="Capsuite Billing"
+                                data-description="Premium Subscription (*price* per month)"
+                                data-panel-label="Subscribe"
+                                data-label="Subscribe"
+                                data-amount=" ">
+</script>
